@@ -1,0 +1,36 @@
+h1{
+    color: rgb(239, 106, 12);
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2cm;
+    font-weight: 900;
+
+}
+
+body{
+    background-color: rgb(9, 2, 42);
+}
+.menu{
+    background-image: url(imgs/menu.jpg);
+    background-size: cover;
+    margin: 0px;
+
+}
+.introduccion{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 167, 4);
+    font-style: oblique;
+    font-weight: 700;
+}
+
+.comandos{
+    color: wheat;
+}
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+
+
