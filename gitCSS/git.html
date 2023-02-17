@@ -3,6 +3,13 @@
     <link rel="stylesheet" href="estilos.css">
     </head>
 	<body>
+
+		<header class="encabezado">
+			<img src="imgs/logogit.png" class="loggit">
+			<p>TITULO</p>
+			<img src="imgs/logohub.png" class="logohub">
+
+		</header>
 		<div aligne="center" id=inicio class="menu">
 			<h1 class="Titulo"><center>¿Qúe es Git?</h1>
 		<p class="introduccion">Git es un sistema de versiones distribuido, el cual 
@@ -10,25 +17,32 @@
 		óptimo y más sencillo el trabajo en equipo cuando se 
 		está desarrollando software.</center></p>
 		</br>
-		
-		<ol class="comandos"><b><font size="5">
-			<li><a href="#init">init</li>
-				<li><a href="#status">status</li>
-					<li><a href="#branch">branch</li>
-						<li><a href="#checkout">checkout</li>
-							<li><a href="#remote">remote</li>
-								<li><a href="#pull">pull</li>
-									<li><a href="#push">push</li>
-										<li><a href="#clone">clone</li>
-											<li><a href="#commit">commit</a></li>
+			<div class="botones">
+			<a class="binit" href="#init">init</a>
+			<br>
+			<a class="bstatus" href="#status">status</a>
+			<br>
+			<a class="bbranch" href="#branch">branch</a>
+			<br>
+			<a class="bcheckout" href="#checkout">checkout</a>
+			<br>
+			<a class="bremote" href="#remote">remote</a>
+			<br>
+			<a class="bpull" href="#pull">pull</a>
+			<br>
+			<a class="bpush" href="#push">push</a>
+			<br>
+			<a class="bclone" href="#clone">clone</a>
+			<br>
+			<a class="bcommit" href="#commit">commit</a>
+			</div>
 											
-										</b></font></ol>
    		</div>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-	<div id=init><center>
+	<div ><center>
 		
-		<h2>INIT</h2>
+		<h2 class="tinit">INIT</h2>
 		<br>
 		<p>El comando git init crea un nuevo repositorio de Git. 
 		Puede utilizarse para convertir un proyecto existente y sin 
