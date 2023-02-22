@@ -1,76 +1,102 @@
 body{
-    font-family: sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    background-color: rgb(221, 175, 114);
+    background-image: url(imgs/body.jpg);
+    opacity: 0.9;
+    color: white;
+    
+
 }
-header{
-    display: flex;
-    height: 70px;
-    background-color: white;
-    justify-content: space-between;
+.todillo{
+
+    background-color: #f44c34;
+    margin: 30px;
+    padding: 6rem;
+    font-size: x-large;
+
+}
+.main{
+    margin-top: 10rem;
+}
+
+.encabezado{
+    
+    height: 60px;
+    background-color:black;
     align-items: center;
-    padding: 10px;
+    padding: 2rem 2rem ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    
+    
     
 }
-.loggit{
-    display: flex;
-    text-align: left;
-    height: 100px;
-}
-.logohub{
-    display: flex;
-    height: 100px;
-    text-align: right;
-}
 
-h1{
-    color: rgb(239, 106, 12);
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 2cm;
-    font-weight: 900;
+    
+}
 
+.loggit{
+    
+    text-align: left;
+    height: 70px;
+    margin-left: 30px;
+    
 }
 
 
-.menu{
-    background-image: url(imgs/menu.jpg);
-    background-size: cover;
-
-}
-.introduccion{
-    text-align: center;
-    font-size: x-large;
-    color: rgb(255, 167, 4);
-    font-style: oblique;
-    font-weight: 700;
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.comandos{
-    text-align: center;
-    font-size: x-large;
-    color: wheat;
-}
-a{
-    text-decoration: none;
-    color: wheat;
+.menu ul li{
+    display: inline-block;
 }
 
-.tinit{
-    color: rgb(255, 255, 255);
+.menu ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
 }
+
+.menu ul li a:hover{
+    background-color: rgb(6, 6, 6);
+    color: white;
+    font-weight: bold;
+}
+
 .botones{
-    background-image: url(imgs/fcomandos.jpeg);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-decoration: double;
-    text-align: center;
+    text-decoration: none;
+    background:#f44c34;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 3px 3px black;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.ejemplos{
+    object-fit: cover;
+    border-width: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.subti{
+    padding-top: 10rem;
     font-size: x-large;
-    margin-left: 150px;
-    margin-right: 150px;
+    text-align: center;
 }
-.binit{
-    border: 10cm;
-}
+
 
 
 
